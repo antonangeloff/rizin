@@ -164,6 +164,7 @@ rz_il_definitions_files = [
 install_headers(rz_il_definitions_files, install_dir: join_paths(rizin_incdir, 'rz_il', 'definitions'))
 
 rz_il_files = [
+  'rz_il/rz_il_alloc.h',
   'rz_il/rz_il_opcodes.h',
   'rz_il/rz_il_opbuilder_begin.h',
   'rz_il/rz_il_opbuilder_end.h',

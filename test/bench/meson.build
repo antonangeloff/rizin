@@ -23,6 +23,7 @@ if get_option('enable_benchmarks')
     'diff',
     'graph',
     'il',
+    'il_alloc',
     'ht',
     'util',
     'vector',
